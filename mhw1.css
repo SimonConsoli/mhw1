@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    
+  }
+  
+  a{
+    cursor:pointer;
+    padding:10px 15px;
+    border:4px outset black;
+      border-radius:200px;
+    background-color:black;
+  }
+  a:hover{
+    background-color:black;
+    color:white;
+  }
+  #container{
+  background-image:url(https://img-prod.tgcom24.mediaset.it/images/2022/03/28/034901959-9182796a-5d7d-47ef-b7e6-7e23104f1909.jpg);
+    background-size:cover;
+    height:500px;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+  }
+  #overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  h1{
+    color:PapayaWhip;
+  
+  }
+  
+  #collegamenti{
+    font-size:20px;
+    margin:10px;
+    position:fixed;
+    top:10px;
+    right:0;
+    color:red;
+    letter-spacing: 3px;
+    
+  }
+  a.tap{
+    padding:10px 15px;
+    border:4px solid red;
+      border-radius:200px;
+  }
+  
+  @media (max-width: 780px){
+    #collegamenti{
+      font-size:1em;
+    }
+  }
+  #menu{
+    display:none;
+  }
+  #menu div{
+    width:1em;
+    height:4px;
+    background-color:red;
+    margin:5px 0;
+  }
+  @media(max-width:1478px){
+    #collegamenti{
+      display:none;
+    }
+    #menu{
+      display:block;
+      position:fixed;
+      right:0;
+      
+    }
+  }
+  
+  #logocont{
+    display:flex;
+    justify-content:center;
+  }
+  
+  #logocont img{
+    position:absolute;
+    height:100px;
+    width:100px;
+    border:3px solid black;
+    border-radius:50px;
+    margin-top:-4em;
+    
+    
+  }
+   h2{
+     margin-top:2em;
+     text-align:center;
+  }
+  
+  
+  
+  #primo{
+    font-size:30px;
+  }
+  #main{
+      margin-left: auto;
+      margin-right: auto;
+      width: 66.67%;
+      font-size: 40px;
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+  }
+    
+  .imagebox img{
+   width:100%;
+  }
+  .Border{
+    border-left:5px solid red;
+    padding-left:5px;
+    margin-bottom:120px;
+  }
+  h4, h3, h5, h3, h7{
+    font-size:2em;
+    font-family:Oswald,helvetica;
+    
+  }
+  
+  
+  
+  h6{
+    font-size:.4em;
+  }
+  h10{
+    font-size:.4em;
+  }
+  
+  
+  footer{
+    font-size:2.5em;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    
+  }
+  
